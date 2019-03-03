@@ -62,10 +62,8 @@ public class MainActivity extends AppCompatActivity {
         );
 
 
-        // Volume Bar
 
-
-        // Thread (Update positionBar & timeLabel)
+        // Thread
         new Thread(new Runnable() {
             @Override
             public void run() {
